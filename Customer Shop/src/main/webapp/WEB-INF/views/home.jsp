@@ -13,5 +13,8 @@
         <br>
         <p>${message}</p>
 
+        <a href="secondPage">
+            Second page
+        </a>
     </body>
 </html>

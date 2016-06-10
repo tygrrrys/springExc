@@ -1,4 +1,4 @@
-package com.epam.benchshop.config;
+package com.epam.benchshop.infrastructure;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @Configuration
 @ComponentScan(basePackages="com.epam.benchshop")
 @EnableWebMvc
-public class MvcConfiguration extends WebMvcConfigurerAdapter{
+class MvcConfiguration extends WebMvcConfigurerAdapter{
 
 	@Bean
 	public ViewResolver getViewResolver(){
